@@ -1,0 +1,5 @@
+name: API
+main: me.grimy.api.API
+version: 1.0
+author: Grimy
+website: https://github.com/GregoryDevelopment/Public-API
