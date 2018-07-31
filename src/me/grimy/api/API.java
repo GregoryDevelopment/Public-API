@@ -5,15 +5,18 @@ import java.util.Set;
 import java.util.logging.Level;
 import java.util.stream.Stream;
 
+import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import com.google.common.collect.ImmutableSet;
+import com.sun.webkit.plugin.PluginManager;
 
 import lombok.Getter;
 
 import me.grimy.api.abstracts.AbstractManager;
 import me.grimy.api.command.CommandManager;
+import me.grimy.api.scoreboard.BoardManager;
 
 public class API extends JavaPlugin implements Listener {
 
